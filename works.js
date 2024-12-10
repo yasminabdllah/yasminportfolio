@@ -91,7 +91,7 @@ function worKs(filteredArray){
                     <div class="card-body py-0">
                       <h4 text-danger class="card-title text-capitalize fw-semibold mb-4">${filteredArray[x].title}</h4>
                       <p class="card-text" style="height: 50px; font-size: 0.66rem; overflow: hidden;">
-                      ${filteredArray[x].discription}
+                      ${filteredArray[x].description}
                        
                       </p>
                       
