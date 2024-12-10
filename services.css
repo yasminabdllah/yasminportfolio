@@ -1,0 +1,54 @@
+h5{
+    color:#d7b65d ;
+}
+p{
+    text-align: justify;
+}
+
+.sercard{
+  border: none;
+   background-color: transparent;
+   margin:0 40px 20px 0;
+   transition: 0.5;
+   position:relative;
+   z-index: 1;
+
+}
+
+.sercard:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity:0.2;
+    transition: .7s ease all;
+    z-index: -1;
+    transform:scaleX(0);
+}
+
+    .sercard:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color:black;
+        opacity:0.2;
+        transition: .7s ease all;
+        z-index: -1;
+        transform:scaleY(0);
+    }
+    .sercard:hover:before {
+        transform: scaleY(1); 
+    }
+    .sercard:hover:after {
+         transform: scaleX(1); 
+    }
+.ph{
+    width:20%;
+    height:auto;
+}
