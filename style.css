@@ -2,10 +2,12 @@
   
   margin: 0;
   padding: 0;
+
 }
 body{
     background-color: #F8F8F8;
     font-size: 16px;
+  
     
 }
 p ,a{
@@ -53,7 +55,7 @@ ul li ,a{
 
 }
 a:hover{
-    color: #800020;
+    color: #800020 !important;
 
     
 }
@@ -71,13 +73,13 @@ a:hover{
     
     padding: 1rem;
     
-    line-height: 50px;
+    line-height: 3.1rem;
     border-bottom: 5px solid #800020;
  
-    font-size: 64px; 
+    font-size: 4rem; 
 
     text-shadow: 2px 4px 4px rgba(102, 0, 24, 0.4);
-   /* text-shadow: 2px 4px 0px rgba(5, 71, 70, 0.4);*/
+
 
 }
 .img{
@@ -92,17 +94,20 @@ a:hover{
 
 
 button{
-    padding: 1rem 0.5rem;
+    padding: 0.3rem;
   border: none;
     background-color: transparent;
     margin-top: 2rem;
     background-color: #800020;
     color: #F8F8F8;
     border-radius: 0.3rem;
-    min-width: 10%;
+    width: fit-content;
+    max-width: 40%;
+    min-width: 15%;
+   
 }
 button:hover{
-    color: #800020;
+    color: #800020 ;
     border: 1px solid #800020;
     background-color: transparent;
     transition: 1s;}
@@ -141,6 +146,7 @@ button:hover{
     right: 0;
     left: 0;
     transition: all ease 0.5s ;
+    color: #ffffff !important;
   
     box-shadow: #ffffff 0px 4px 4px 0px;
   }
@@ -167,10 +173,10 @@ button:hover{
   }
 
 .icon{
-    width: 2rem;
-    height: 2rem;
+   max-width: 1.7rem;
     height: auto;
     margin-right: 1rem;
+    margin-bottom: 1rem;
     
 }
 .icon:hover{
@@ -200,6 +206,20 @@ button:hover{
 .active{
     color: #800020;
 }
-.footer{
-    background-color: white;
+.footer {
+  
+    background-color:#086b6966;
+    
+}
+.footer h6{
+    color: #ffffff;
+    font-weight: 800;
+}
+.footer .row{
+    margin: 0rem;
+  
+    padding-left: 2rem;
+    max-height: 4rem;
+  
+    
 }
